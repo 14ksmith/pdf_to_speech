@@ -69,3 +69,4 @@ to_speech(convert_pdf(pdf=f"{pdf_path}.pdf"))
 
 # # Call the pdf to text function within the text file creation function
 # to_txt(txt_name=f"{pdf_path}.txt", convert_pdf=convert_pdf(pdf=f"{pdf_path}.pdf"))
+# ----------------------------------------------------------------------------------------#
