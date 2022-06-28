@@ -1,5 +1,5 @@
-from pdf_to_text import convert_pdf, to_txt
-from text_to_speech import to_speech
+from core.pdf_to_text import convert_pdf, to_txt
+from core.text_to_speech import to_speech
 
 
 pdf_name = input(
