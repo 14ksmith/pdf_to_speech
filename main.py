@@ -13,4 +13,3 @@ to_speech(convert_pdf(pdf=f"pdf/{pdf_name}.pdf"))
 to_txt(
     txt_name=f"pdf/{pdf_name}.txt", convert_pdf=convert_pdf(pdf=f"pdf/{pdf_name}.pdf")
 )
-# ----------------------------------------------------------------------------------------#
