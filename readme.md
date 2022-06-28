@@ -24,8 +24,10 @@
 
 ## Overview
 
-PDF to speech is a python application that allows users to convert a pdf of their choice into audio.
+PDF to Speech is a Python application that allows users to convert pdf to audio. With a quick and easy setup process, the user will be listening to their favorite story, article, or \_\_\_\_ within minutes.
 
 ## How to Use PDF to Speech
 
-First, install the necessary packages from requirements.txt
+### Setup and Installation
+
+The first step to setting up PDF to Speech is to install the necessary packages from requirements.txt by simply running `pip3 install requirements.txt`.
