@@ -15,7 +15,7 @@ def get_command_line_args():
 
 
 def start_pdf_to_text_file(pdf_name):
-    # Call the pdf to text function within the text file creation function using the file name input
+    """Call the pdf to text function within the text file creation function using the file name input"""
     write_to_text_file(
         txt_name=f"pdf/{pdf_name}.txt",
         converted_pdf_to_text=convert_pdf_to_text(pdf=f"pdf/{pdf_name}.pdf"),
@@ -25,7 +25,7 @@ def start_pdf_to_text_file(pdf_name):
 
 
 def start_pdf_to_speech(pdf_name):
-    # Call the pdf to text function within the text to speech function using the file name input
+    """Call the pdf to text function within the text to speech function using the file name input"""
     text_to_speech(convert_pdf_to_text(pdf=f"pdf/{pdf_name}.pdf"))
 
 
