@@ -8,7 +8,7 @@ from pdfminer.pdfpage import PDFPage
 from pdfminer.pdfparser import PDFParser
 
 
-def convert_pdf(pdf):
+def convert_pdf_to_text(pdf):
     """Converts a given pdf to text. Returns the converted text."""
     output_string = StringIO()
     with open(pdf, "rb") as file:
@@ -24,8 +24,8 @@ def convert_pdf(pdf):
     return final_string
 
 
-def to_txt(txt_name, convert_pdf):
+def write_to_text_file(txt_name, converted_pdf_to_text):
     """Creates a txt file with final_string returned from convert_pdf function."""
     # save extracted data from pdf to a text file
     black_cat_text = open(txt_name, "a")
-    black_cat_text.writelines(convert_pdf)
+    black_cat_text.writelines(converted_pdf_to_text)
