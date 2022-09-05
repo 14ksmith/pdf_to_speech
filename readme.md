@@ -30,7 +30,7 @@ PDF to Speech is a Python application that allows users to convert pdf to audio.
 
 ### Setup and Installation
 
-The first step to setting up PDF to Speech is to install the necessary packages from requirements.txt by simply running `pip3 install requirements.txt`.
+The first step to setting up PDF to Speech is to install the necessary packages from requirements.txt by simply running `pip3 install -r requirements.txt`.
 
 You will then need to download a pdf of your choice and add it to the `pdf` folder.
 
